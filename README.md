@@ -8,7 +8,7 @@
 
 ## Steps
 1. Create a new bot in BotFather
-Instructions can be found here: [https://medium.com/free-code-camp/learn-to-build-your-first-bot-in-telegram-with-python-4c99526765e4](Telegram Bot)
+Instructions can be found here: [Telegram Bot](https://medium.com/free-code-camp/learn-to-build-your-first-bot-in-telegram-with-python-4c99526765e4)
 
 3. Install the library.
 
