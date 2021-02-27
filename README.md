@@ -1,8 +1,8 @@
 # Build a Chatbot in ten minutes
 
 ## Requirements
-python 3
-python-telegram-bot
+* python 3
+* python-telegram-bot
 
 
 ## Steps
