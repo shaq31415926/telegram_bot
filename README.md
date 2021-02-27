@@ -6,10 +6,11 @@
 
 
 ## Steps
-Install the library.
+1. Create a new bot in BotFather
+2. Install the library.
 
 ```pip3 install python-telegram-bot```
 
-Run the program.
+3. Run the program.
 
 ```python3 main.py```
