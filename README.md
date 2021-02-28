@@ -19,13 +19,15 @@ For the pupose of the workshop you could also sign up for a Cloud IDE: https://c
 
 ```pip3 install python-telegram-bot```
 
-6. Clone or copy any of the following scripts:
+6. Clone the repo or copy any of the following scripts:
 
 * dog_bot.py <- Script to create a simple bot which generates random dog images
 * simple_bot.py <- Script to create a simple bot which repeats what you enter
-* ai_bot.py <- Script to create an intelligent bot which is learning to answer your questions.
+* ai_bot.py <- Script to create an intelligent bot which is learning to answer your questions.'
 
-7. Run the program in the terminal.
+7. Replace the current Telegram API token with YOUR TOKEN in the code.
+
+8. Run the program in the terminal.
 
 * ```python3 dog_bot.py```
 
