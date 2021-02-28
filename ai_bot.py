@@ -10,7 +10,7 @@ from src.text_processing import Normalize
 
 warnings.filterwarnings("ignore")
 
-YOUR_TOKEN = '1685425164:AAEgCJeeN61T-S0UJUH7lchizjC_ft-5tuc'
+YOUR_TOKEN = 'TO INSERT'
 
 
 # Processing commands

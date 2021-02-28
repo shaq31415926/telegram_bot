@@ -1,7 +1,7 @@
 # import libraries
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
-YOUR_TOKEN = '1685425164:AAEgCJeeN61T-S0UJUH7lchizjC_ft-5tuc'
+YOUR_TOKEN = 'TO_INSERT'
 
 
 # Processing commands
