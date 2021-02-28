@@ -5,7 +5,9 @@
 
 2. Create a new bot in BotFather. Go to [BotFather](https://telegram.me/BotFather)
 
-Go to the BotFather, then create new bot by sending the /newbot command. Follow the steps until you get the username and token for your bot. You can go to your bot by accessing this URL: https://telegram.me/YOUR_BOT_USERNAME.
+* Go to the BotFather, then create new bot by sending the ```/newbot``` command. 
+* Follow the steps until you get the username and token for your bot.
+* You can go to your bot by accessing this URL: https://telegram.me/YOUR_BOT_USERNAME.
 
 3. Open up a Python Integrated Development Environment of your choice for e.g. [Virtual Studio](https://visualstudio.microsoft.com/).
 For the pupose of the workshop you could also sign up for a Cloud IDE for e.g. https://codeanywhere.com/
