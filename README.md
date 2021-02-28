@@ -12,8 +12,7 @@
 3. Open up a Python Integrated Development Environment of your choice for e.g. [Virtual Studio](https://visualstudio.microsoft.com/).
 For the pupose of the workshop you could also sign up for a Cloud IDE for e.g. https://codeanywhere.com/
 
-4. If you are using codeanywhere, create a new connection, give a funky name and select one of the Python stacks.
-
+4. If you are using codeanywhere, create a new connection, give it a funky name and select one of the Python stacks.
 
 5. Select the terminal, and install the requirements in the terminal.
 
