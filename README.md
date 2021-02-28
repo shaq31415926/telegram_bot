@@ -28,7 +28,9 @@ For the pupose of the workshop you could also sign up for a Cloud IDE: https://c
 7. Run the program in the terminal.
 
 ```python3 dog_bot.py```
+
 ```python3 simple_bot.py```
+
 ```python3 ai_bot.py```
 
 8. Open your Telegram Bot, and enter the ```/start``` command
