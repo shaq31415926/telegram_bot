@@ -23,7 +23,7 @@ For the pupose of the workshop you could also sign up for a Cloud IDE: https://c
 
 * dog_bot.py <- Script to create a simple bot which generates random dog images
 * simple_bot.py <- Script to create a simple bot which repeats what you enter
-* ai_bot.py <- Script to create an intelligent bot which is learning to answer your questions.'
+* ai_bot.py <- Script to create an intelligent bot which is learning to answer your questions.
 
 7. Insert your **Telegram token** in the code. The variable is called YOUR_TOKEN.
 
