@@ -18,7 +18,7 @@ For the pupose of the workshop you could also sign up for a Cloud IDE for e.g. h
 
 ```pip3 install python-telegram-bot```
 
-6. Clone or a create a new script called main.py. Copy and paste the code.
+6. Clone or a create a new script called main.py. Copy and paste the simple_bot.py or the dog_bot.py.
 
 7. Run the program in the terminal.
 
