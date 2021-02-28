@@ -6,7 +6,7 @@
 2. Create a new bot in BotFather. Go to [BotFather](https://telegram.me/BotFather)
 
 * Go to the BotFather, then create new bot by sending the ```/newbot``` command. 
-* Follow the steps until you get the username and token for your bot.
+* Follow the steps until you get the **username** and **token** for your bot.
 * You can go to your bot by accessing this URL: https://telegram.me/YOUR_BOT_USERNAME.
 
 3. Open up a Python Integrated Development Environment of your choice.
@@ -25,7 +25,7 @@ For the pupose of the workshop you could also sign up for a Cloud IDE: https://c
 * simple_bot.py <- Script to create a simple bot which repeats what you enter
 * ai_bot.py <- Script to create an intelligent bot which is learning to answer your questions.'
 
-7. Replace the current Telegram API token with YOUR TOKEN in the code.
+7. Insert your **Telegram token** in the code. The variable is called YOUR_TOKEN.
 
 8. Run the program in the terminal.
 
