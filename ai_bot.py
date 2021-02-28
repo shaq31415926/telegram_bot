@@ -10,6 +10,8 @@ from src.text_processing import Normalize
 
 warnings.filterwarnings("ignore")
 
+YOUR_TOKEN = '1685425164:AAEgCJeeN61T-S0UJUH7lchizjC_ft-5tuc'
+
 
 # Processing commands
 def start(update, context):
@@ -30,7 +32,7 @@ def tokenize_input_data():
 
 
 def generate_response(user_response):
-    """"""
+    """Reads the user input and prepares the output"""
     robo_response = ''
     sent_tokens = tokenize_input_data()
     sent_tokens.append(user_response)
@@ -53,7 +55,7 @@ def generate_response(user_response):
 
 
 def wikipedia_data(input):
-    """"""
+    """Accesses and parse data from Wikipedia"""
     reg_ex = re.search('tell me about (.*)', input)
     try:
         if reg_ex:
@@ -79,7 +81,8 @@ def bot_response(update, context):
 
 
 def main():
-    updater = Updater('1685425164:AAEgCJeeN61T-S0UJUH7lchizjC_ft-5tuc', use_context=True)
+    """Run the Program"""
+    updater = Updater(YOUR_TOKEN, use_context=True)
     dp = updater.dispatcher
     # Add handlers to the dispatch
     dp.add_handler(CommandHandler('start', start))
@@ -92,3 +95,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+# References
+# https://www.kdnuggets.com/2019/12/build-intelligent-chatbot.html
+#

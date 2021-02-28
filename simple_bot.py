@@ -1,6 +1,8 @@
 # import libraries
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
+YOUR_TOKEN = '1685425164:AAEgCJeeN61T-S0UJUH7lchizjC_ft-5tuc'
+
 
 # Processing commands
 def start(update, context):
@@ -15,8 +17,9 @@ def bot_response(update, context):
 
 
 def main():
+    """Run the Program"""
     # Create the Updater and pass it your bot's token.
-    updater = Updater('1685425164:AAEgCJeeN61T-S0UJUH7lchizjC_ft-5tuc', use_context=True)
+    updater = Updater(YOUR_TOKEN, use_context=True)
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
     # Add handlers to the dispatch
