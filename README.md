@@ -15,7 +15,7 @@ For the pupose of the workshop you could also sign up for a Cloud IDE: https://c
 
 4. If you are using codeanywhere, create a new connection, give it a funky name and select one of the Python stacks. Otherwise skip this step.
 
-5. Open the terminal, and install the requirements in the terminal.
+5. Open the terminal, and clone the reno to install the requirements in the terminal.
 
 ```pip install -r requirements.txt```
 
