@@ -15,17 +15,22 @@ For the pupose of the workshop you could also sign up for a Cloud IDE: https://c
 
 4. If you are using codeanywhere, create a new connection, give it a funky name and select one of the Python stacks. Otherwise skip this step.
 
-5. Open the terminal, and clone the reno to install the requirements in the terminal.
+5. Open the terminal to clone the repo and go into the cloned directory:
+
+* ```git clone https://github.com/shaq31415926/girlsinai.git```
+
+* ```cd girlsinai```
+
+6. Install the requirements in the terminal.
 
 ```pip install -r requirements.txt```
 
-6. Clone the repo or copy any of the following scripts:
+7. Update the variable YOUR_TOKEN with **your Telegram token**.
 
 * dog_bot.py <- Script to create a simple bot which generates random dog images
 * simple_bot.py <- Script to create a simple bot which repeats what you enter
 * ai_bot.py <- Script to create an intelligent bot which is learning to answer your questions.
 
-7. Insert your **Telegram token** in the code. The variable is called YOUR_TOKEN.
 
 8. Run the program in the terminal.
 
@@ -35,4 +40,4 @@ For the pupose of the workshop you could also sign up for a Cloud IDE: https://c
 
 * ```python ai_bot.py```
 
-8. Open your Telegram Bot, and enter the ```/start``` command
+9. Open your Telegram Bot, and enter the ```/start``` command
