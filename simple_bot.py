@@ -1,7 +1,7 @@
 # import libraries
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
-YOUR_TOKEN = 'TO_INSERT'
+YOUR_TOKEN = 'INSERT_YOUR_TOKEN'
 
 
 # Processing commands
@@ -17,7 +17,10 @@ def bot_response(update, context):
 
 
 def main():
-    """Run the Program"""
+    """Run the Program
+    
+    A very simple bot that echoes the message the user inputs
+    """
     # Create the Updater and pass it your bot's token.
     updater = Updater(YOUR_TOKEN, use_context=True)
     # Get the dispatcher to register handlers

@@ -10,12 +10,13 @@ from src.text_processing import Normalize
 
 warnings.filterwarnings("ignore")
 
-YOUR_TOKEN = 'TO INSERT'
+YOUR_TOKEN = 'INSERT_YOUR_TOKEN'
 
 
 # Processing commands
 def start(update, context):
     """When the user enters start the following message will appear"""
+    
     context.bot.sendMessage(chat_id=update.message.chat_id,
                             text='Hello! My Name is ChatterBot and I am your very own AI Bot. What would you like to know?')
 
@@ -23,6 +24,7 @@ def start(update, context):
 # read the input data
 def tokenize_input_data():
     """Tokenizes the raw data"""
+    
     data = open('data/UN.txt', 'r', errors='ignore')
     raw = data.read()
     raw = raw.lower()  #
@@ -33,6 +35,7 @@ def tokenize_input_data():
 
 def generate_response(user_response):
     """Reads the user input and prepares the output"""
+    
     robo_response = ''
     sent_tokens = tokenize_input_data()
     sent_tokens.append(user_response)
@@ -56,6 +59,7 @@ def generate_response(user_response):
 
 def wikipedia_data(input):
     """Accesses and parse data from Wikipedia"""
+    
     reg_ex = re.search('tell me about (.*)', input)
     try:
         if reg_ex:
@@ -68,6 +72,7 @@ def wikipedia_data(input):
 
 def bot_response(update, context):
     """When the user types a message the bot will give a response based on the user's input"""
+    
     user_response = update.message.text
     user_response = user_response.lower()
     if user_response not in ['bye', 'shutdown', 'exit', 'quit']:
@@ -81,7 +86,12 @@ def bot_response(update, context):
 
 
 def main():
-    """Run the Program"""
+    """Run the Program
+    
+    An Intelligent Bot that learns from the input data (data/UN.txt) and also queries wikipedia
+    
+    """
+    
     updater = Updater(YOUR_TOKEN, use_context=True)
     dp = updater.dispatcher
     # Add handlers to the dispatch

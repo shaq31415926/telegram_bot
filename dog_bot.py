@@ -2,7 +2,7 @@ import requests
 import re
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
-YOUR_TOKEN = 'TO_INSERT'
+YOUR_TOKEN = 'INSERT YOUR TOKEN'
 
 
 def get_url():
@@ -20,7 +20,10 @@ def start(update, context):
 
 
 def main():
-    """Run the Program"""
+    """Run the Program
+    
+    Every time you enter the command /start the bot will return a random image of a dog
+    """
     updater = Updater(YOUR_TOKEN, use_context=True)
     dp = updater.dispatcher
     dp.add_handler(CommandHandler('start', start))
