@@ -48,7 +48,7 @@ You could also replace steps 6 to 8 with this, if you prefer to use Docker.
 
 ```bash 
 docker build -t telegram_bot .
-docker run -e TELEGRAM_TOKEN=<YOUR TOKEN> telegram_bot
+docker run -d -e TELEGRAM_TOKEN=<YOUR TOKEN> telegram_bot
 ```
 
 
