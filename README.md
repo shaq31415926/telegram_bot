@@ -5,7 +5,7 @@
 
 2. Create a new bot in BotFather. Go to [BotFather](https://telegram.me/BotFather)
 
-* Go to the BotFather, then create new bot by sending the ```/newbot``` command. 
+* Go to the BotFather, then create new bot by sending the `/newbot` command. 
 * Follow the steps until you get the **username** and **token** for your bot.
 * You can go to your bot by accessing this URL: https://telegram.me/YOUR_BOT_USERNAME.
 
@@ -17,13 +17,13 @@ For the pupose of the workshop you could also sign up for a Cloud IDE: https://c
 
 5. Open the terminal to clone the repo and go into the cloned directory:
 
-* ```git clone https://github.com/shaq31415926/telegram_bot.git```
+* `git clone https://github.com/shaq31415926/telegram_bot.git`
 
-* ```cd telegram_bot```
+* `cd telegram_bot`
 
 6. Install the requirements in the terminal.
 
-```pip install -r requirements.txt```
+`pip install -r requirements.txt`
 
 7. Update the variable YOUR_TOKEN with **your Telegram token**.
 
@@ -34,10 +34,21 @@ For the pupose of the workshop you could also sign up for a Cloud IDE: https://c
 
 8. Run the program in the terminal.
 
-* ```python dog_bot.py```
+* `TELEGRAM_TOKEN=<YOUR TOKEN> python dog_bot.py`
 
-* ```python simple_bot.py```
+* `TELEGRAM_TOKEN=<YOUR TOKEN> python simple_bot.py`
 
-* ```python ai_bot.py```
+* `TELEGRAM_TOKEN=<YOUR TOKEN> python ai_bot.py`
 
 9. Open your Telegram Bot, and enter the ```/start``` command
+
+### Docker
+
+You could also replace steps 6 to 8 with this, if you prefer to use Docker.
+
+```bash 
+docker build -t telegram_bot .
+docker run -e TELEGRAM_TOKEN=<YOUR TOKEN> telegram_bot
+```
+
+

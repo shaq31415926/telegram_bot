@@ -1,8 +1,10 @@
+import os
+
 import requests
 import re
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
-YOUR_TOKEN = 'INSERT YOUR TOKEN'
+YOUR_TOKEN = os.getenv("TELEGRAM_TOKEN")
 
 
 def get_url():

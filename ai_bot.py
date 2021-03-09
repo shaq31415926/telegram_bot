@@ -1,4 +1,5 @@
 # import libraries
+import os
 import re
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -10,7 +11,7 @@ from src.text_processing import Normalize
 
 warnings.filterwarnings("ignore")
 
-YOUR_TOKEN = 'INSERT_YOUR_TOKEN'
+YOUR_TOKEN = os.getenv("TELEGRAM_TOKEN")
 
 
 # Processing commands

@@ -1,7 +1,8 @@
 # import libraries
+import os
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
-YOUR_TOKEN = 'INSERT_YOUR_TOKEN'
+YOUR_TOKEN = os.getenv("TELEGRAM_TOKEN")
 
 
 # Processing commands
