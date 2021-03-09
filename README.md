@@ -17,9 +17,9 @@ For the pupose of the workshop you could also sign up for a Cloud IDE: https://c
 
 5. Open the terminal to clone the repo and go into the cloned directory:
 
-* ```git clone https://github.com/shaq31415926/terminal_bot.git```
+* ```git clone https://github.com/shaq31415926/telegram_bot.git```
 
-* ```cd terminal_bot```
+* ```cd telegram_bot```
 
 6. Install the requirements in the terminal.
 
