@@ -15,7 +15,7 @@ def get_url():
 
 
 def start(update, context):
-    """Send the image"""
+    """The command the bot carries out when starting the bot"""
     print("reached bop")
     url = get_url()
     context.bot.send_photo(chat_id=update.effective_chat.id, photo=url)
