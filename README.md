@@ -1,7 +1,7 @@
 # Build your first bot in Telegram with Python in only 10 minutes
 
 ## Steps:
-1. Do you have the Desktop Version of Telegram? If yes, move to step 2 otherwise download Telegram.
+1. Do you have the Desktop Version of [Telegram](https://telegram.org/)? If yes, move to step 2 otherwise download Telegram.
 
 2. Create a new bot in BotFather. Go to [BotFather](https://telegram.me/BotFather)
 
