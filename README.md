@@ -32,7 +32,7 @@ For the pupose of the workshop you could also sign up for a Cloud IDE: https://c
 * ai_bot.py <- Script to create an intelligent bot which is learning to answer your questions.
 
 
-8. Run the program in the terminal.
+8. Run the program in the terminal (select one script).
 
 * `TELEGRAM_TOKEN=<YOUR TOKEN> python dog_bot.py`
 
