@@ -25,20 +25,14 @@ For the pupose of the workshop you could also sign up for a Cloud IDE: https://c
 
 `pip install -r requirements.txt`
 
-7. Update the variable YOUR_TOKEN with **your Telegram token**.
-
-* dog_bot.py <- Script to create a simple bot which generates random dog images
-* simple_bot.py <- Script to create a simple bot which repeats what you enter
-* ai_bot.py <- Script to create an intelligent bot which is learning to answer your questions.
-
 
 8. Run the program in the terminal (select one script).
 
-* `TELEGRAM_TOKEN=<YOUR TOKEN> python dog_bot.py`
+* `TELEGRAM_TOKEN=<YOUR TOKEN> python dog_bot.py` <- Script to create a simple bot which generates random dog images
 
-* `TELEGRAM_TOKEN=<YOUR TOKEN> python simple_bot.py`
+* `TELEGRAM_TOKEN=<YOUR TOKEN> python simple_bot.py` <- Script to create a simple bot which repeats what you enter
 
-* `TELEGRAM_TOKEN=<YOUR TOKEN> python ai_bot.py`
+* `TELEGRAM_TOKEN=<YOUR TOKEN> python ai_bot.py` <- Script to create an intelligent bot which is learning to answer your questions.
 
 9. Open your Telegram Bot, and enter the ```/start``` command
 
